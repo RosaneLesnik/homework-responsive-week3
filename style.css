@@ -104,9 +104,23 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.yoga-link:hover {
+  color: white;
+}
 
 @media (max-width: 576px) {
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
   p {
     text-align: center;
+  }
+
+  .project.link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
